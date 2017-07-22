@@ -1,0 +1,75 @@
+Package fribidi was not foun
+sudo apt-get install libffi6 libffi-dev
+
+/usr/lib/pkgconfig
+
+cp /usr/lib/x86_64-linux-gnu/pkgconfig/libffi.pc /usr/lib/pkgconfig
+
+https://www.fribidi.org/
+./configure
+make install
+
+
+Package sdl was not found in the pkg-config search path
+
+sudo apt-get install libsdl1.2-dev
+
+Package librsvg-2.0 was not found in the pkg-config search path
+
+apt-get install librsvg2-bin
+
+
+Package cairo was not found in the pkg-config search path
+sudo apt-get install libcairo2-dev
+sudo apt-get build-dep cairo
+
+
+
+
+
+libsvg-cairo
+https://www.cairographics.org/releases/
+
+#
+sudo apt-get install gnome-core-devel
+sudo apt-get install pkg-config
+sudo apt-get install libcairo2-dev librsvg2-dev
+
+
+fatal error: SDL_image.h
+
+sudo apt-get install libsdl-image1.2-dev
+
+fatal error: SDL_ttf.h
+
+fatal error: SDL2/SDL_ttf.h: No such file or directory
+
+apt-get install
+libsdl2-2.0-0
+libsdl2-dev
+
+/usr/include/SDL2/
+-I/usr/include/SDL2/
+
+#if !defined(PAPER_H)
+#error "---------------------------------------------------"
+#error "If you installed libpaper from a package, be sure"
+#error "to get the development package, as well!"
+#error "(eg., 'libpaper-dev_1.1.21.deb')"
+sudo apt-get install libpaper-dev
+ libsdl-mixer1.2-dev
+
+Please install 'gperf' and try again!
+
+sudo apt-get install gperf
+
+/usr/bin/ld: 找不到 -lSDL_ttf
+
+-------------/usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0
+-------------/usr/lib/x86_64-linux-gnu/libSDL_ttf-2.0.so.0.10.1
+-lSDL_ttf-2.0
+
+
+
+export PATH="$PATH:/usr/include/SDL2/"
+
